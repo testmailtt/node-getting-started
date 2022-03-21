@@ -22,11 +22,16 @@
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   unzip awscliv2.zip
   ./aws/install
-  aws --version
-  sam --version
 
-  export AWS_ACCESS_KEY_ID=AKIA6QY3VDTTZWKIWCSM
-  export AWS_SECRET_ACCESS_KEY=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
+  curl "https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip"
+  unzip aws-sam-cli-linux-x86_64.zip -d sam-installation
+  ./sam-installation/install
+
+  sam --version
+  aws --version
+
+  export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
+  export AWS_SECRET_ACCESS_KEY=yyyyyyyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   
   aws configure
 
