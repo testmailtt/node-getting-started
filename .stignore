@@ -56,9 +56,9 @@ jspm_packages
 
 .idea
 .DS_Store
-
-aws
-
+aws-sam-cli-linux-x86_64.zip
 awscliv2.zip
 sam-installation/
 sam-installation/*
+aws
+aws/*
