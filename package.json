@@ -1,7 +1,7 @@
 {
     "name": "node-getting-started",
     "version": "1.0.0",
-    "description": "Hello world app with express 4",
+    "description": "lambda world 2. electric boogaloo",
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js",

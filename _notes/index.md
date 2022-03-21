@@ -17,11 +17,13 @@
   npm run start 
 
 
+  kubectl apply -f k8s.yml
   
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   unzip awscliv2.zip
   ./aws/install
   aws --version
+  sam --version
 
   export AWS_ACCESS_KEY_ID=AKIA6QY3VDTTZWKIWCSM
   export AWS_SECRET_ACCESS_KEY=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
