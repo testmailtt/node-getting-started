@@ -13,7 +13,7 @@ spec:
         app: lambda-world
     spec:
       containers:
-      - image: okteto/lambda-world:node
+      - image: okteto/hello-world:node
         name: lambda-world
 
 ---

@@ -54,5 +54,11 @@ jspm_packages
 # Serverless directories
 .serverless
 
+.idea
+.DS_Store
+
 aws
+
 awscliv2.zip
+sam-installation/
+sam-installation/*
