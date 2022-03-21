@@ -13,3 +13,7 @@ def lambda_handler(event, context):
     return { 
         'message' : message
     }
+
+    # sam build
+    # sam local invoke HelloNameFunction -e events/events.json
+    # sam deploy
