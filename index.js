@@ -6,5 +6,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(3000, function () {
-  console.log('Starting hello-world server...');
+  console.log('starting server...');
 })
